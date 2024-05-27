@@ -1,10 +1,17 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import Members from "../miniComponents/Members";
+import Qualities from "../miniComponents/Qualities";
+import Hero from "../miniComponents/Hero";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Hero />
+      <Members />
+      <Qualities />
+    </>
+  );
+};
 
-export default Home
+export default Home;
