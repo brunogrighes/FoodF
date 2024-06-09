@@ -6,15 +6,14 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="banner">
-        <h1>Volunteers</h1>
-        <h3>Needed</h3>
+        <h1>Cozinheiros do Bem FF</h1>
+        <h3>Combatemos a fome e a desigualdade com muito amor e comida boa.</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          tenetur laborum incidunt dolore nisi quaerat dicta soluta? Beatae
-          aliquid excepturi animi vel, provident nisi dolorem?
+          
+“Aqui o amor prevalece em cada sorriso, em cada colherada, em cada ingrediente escolhido cuidadosamente, porque o povo não precisa de esmolas, precisa de amor”
         </p>
         <Link to={"/donate"} className="btn">
-          Donate Now
+          Ajude a campanha
         </Link>
       </div>
       <div className="banner">

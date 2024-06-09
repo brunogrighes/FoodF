@@ -12,35 +12,35 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <img src="/logo.png" alt="logo" />
+        <img src="/logo2.png" alt="logo" />
       </div>
       <div>
-        <h4>Support</h4>
+        <h4>Suporte</h4>
         <ul>
-          <li>New York, USA</li>
-          <li>crypto@gmail.com</li>
-          <li>+92 123123123</li>
+          <li>RS, Porto Alegre</li>
+          <li>CozinhaFF@gmail.com</li>
+          <li>(51) 99853-2191</li>
         </ul>
       </div>
       <div>
-        <h4>Quick Links</h4>
+        <h4>Links</h4>
         <ul>
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to={"/"}>Inicio</Link>
           </li>
           <li>
-            <Link to={"/donate"}>Donate</Link>
+            <Link to={"/donate"}>Doe</Link>
           </li>
           <li>
-            <Link to={"/about"}>About</Link>
+            <Link to={"/about"}>Sobre</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={"/contact"}>Contatos</Link>
           </li>
         </ul>
       </div>
       <div>
-        <h4>Follow Us</h4>
+        <h4>Siga</h4>
         <ul>
           <li>
             <Link to={"/"}>

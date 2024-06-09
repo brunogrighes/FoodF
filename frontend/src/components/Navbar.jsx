@@ -17,16 +17,16 @@ const Navbar = () => {
         <div className="links">
           <ul>
             <li>
-              <Link to={"/"}>HOME</Link>
+              <Link to={"/"}>INICIO</Link>
             </li>
             <li>
-              <Link to={"/donate"}>DONATE US</Link>
+              <Link to={"/donate"}>DOE AQUI</Link>
             </li>
             <li>
-              <Link to={"/about"}>ABOUT</Link>
+              <Link to={"/about"}>SOBRE</Link>
             </li>
             <li>
-              <Link to={"/contact"}>CONTACT</Link>
+              <Link to={"/contact"}>CONTATOS</Link>
             </li>
           </ul>
           <ul>

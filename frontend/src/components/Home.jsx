@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Members from "../miniComponents/Members";
+// import Members from "../miniComponents/Members";
 import Qualities from "../miniComponents/Qualities";
 import Hero from "../miniComponents/Hero";
 
@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Members />
+      {/* <Members /> */}
       <Qualities />
     </>
   );

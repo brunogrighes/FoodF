@@ -6,19 +6,14 @@ const About = () => {
     <section className="about">
       <div className="hero">
         <div className="banner">
-          <h1>Our Story</h1>
+          <h1>Nossa História</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
-            ipsum voluptatum excepturi temporibus eligendi molestiae, vero
-            corporis earum beatae nobis ea vitae non repudiandae libero
-            necessitatibus? Rem eum sunt itaque recusandae ipsam saepe, aliquid
-            delectus magni iste dignissimos vitae quas aut aspernatur dolor hic
-            esse ex sint perferendis ipsa dolore. Earum facilis ducimus illum
-            vero fuga ipsum, ad nulla dolorem.
+          
+O Grupo Cozinheiro do Bem – Food Fighters foi fundado em 2015, pelo chef JúlioRitta que trocou a cozinha de grandes restaurantes pelos fogareiros por vezes improvisados para ajudar pessoas em situação de rua. Inspirado pelo flashmob de mil músicos de uma cidade italiana que tocaram Foo Fighters para atrair a banda para o país, Ritta adaptou a ideia para a realidade brasileira. Convocou amigos da profissão e apaixonados pela cozinha para desenvolverem pratos a quem nem sempre tem o que comer.
           </p>
         </div>
         <div className="banner">
-          <img src="/about.png" alt="aboutImg" />
+          <img src="/logoabout.jpg" alt="logoabout" />
         </div>
       </div>
     </section>

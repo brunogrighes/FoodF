@@ -10,7 +10,7 @@
   font-size: 20px;
 }
 .btn {
-  background: #facc15;
+  background: #fa3715;
   color: #fff;
   width: 100%;
   border: none;
@@ -37,8 +37,8 @@
   height: 100%;
 }
 .about .hero .banner h1 {
-  font-size: 2.4rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 400;
   letter-spacing: 2px;
   word-spacing: 5px;
 }
@@ -86,7 +86,7 @@
   transition: 0.3s;
 }
 .about .our_progress .card:hover {
-  background: #facc15;
+  background: #fa3715;
   transition: 0.3s;
 }
 .about .our_progress .card:hover .icon svg {
@@ -200,7 +200,7 @@
 }
 .contact .banner .wrapper p span {
   display: flex;
-  background: #facc15;
+  background: #fa3715;
   padding: 12px;
   border-radius: 100%;
 }
@@ -386,7 +386,7 @@ footer div ul a span {
   transition: 0.3s;
 }
 .navbar .links ul li a:hover {
-  color: #facc15;
+  color: #fa3715;
   transition: 0.3s;
 }
 .navbar .links ul:last-child {
@@ -394,12 +394,12 @@ footer div ul a span {
 }
 .navbar .links ul:last-child li {
   padding: 8px;
-  border: 2px solid #facc15;
+  border: 2px solid #fa3715;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background: #facc15;
+  background: #fa3715;
   transition: 0.3s;
 }
 .navbar .links ul:last-child li:hover {
@@ -407,7 +407,7 @@ footer div ul a span {
   transition: 0.3s;
 }
 .navbar .links ul:last-child li:hover svg {
-  color: #facc15;
+  color: #fa3715;
   transition: 0.3s;
 }
 .navbar .links ul li svg {
@@ -698,13 +698,13 @@ footer div ul a span {
   justify-content: center;
 }
 .hero .banner h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #facc15;
+  color: #fa3715;
 }
 .hero .banner h3 {
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
   color: #172554;
 }
 .hero .banner p {
