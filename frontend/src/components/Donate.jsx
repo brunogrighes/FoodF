@@ -1,10 +1,82 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+/* eslint-disable no-undef */
+import React, { useState } from "react";
+import axios from "axios";
 
 const Donate = () => {
-  return (
-    <div>DOE</div>
-  )
-}
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [amount, setAmount] = useState("");
+  const [disableBtn, setDisableBtn] = useState(false);
 
-export default Donate
+  const handleCheckout = async (e) => {
+    e.preventDefault();
+    try {
+      setDisableBtn(true);
+      await axios
+        .post(
+          "http://localhost:4000/api/v1/checkout",
+          {
+            name,
+            email,
+            message,
+            amount,
+          },
+          {
+            withCredentials: true,
+            headers: { "Content-Type": "application/json" },
+          }
+        )
+        .then((res) => {
+          console.log(res.data);
+          window.location.href = res.data.result.url;
+        });
+    } catch (error) {
+      setDisableBtn(false);
+      console.error(error);
+    }
+  };
+
+  return (
+    <section className="donate">
+      <form onSubmit={handleCheckout}>
+        <div>
+          <img src="/logo.png" alt="logo" />
+        </div>
+        <div>
+          <label>Mostre seu amor para quem precisa!</label>
+          <input
+            type="number"
+            value={amount}
+            onChange={(e) => setAmount(e.target.value)}
+            placeholder="Valor da doação (BRL)"
+          />
+        </div>
+        <input
+          type="email"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Nome"
+        />
+        <input
+          type="text"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Email"
+        />
+        <input
+          type="text"
+          placeholder="Mensagem"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        <button type="submit" className="btn" disabled={disableBtn}>
+          DOE AQUI {amount ? `$${amount}` : "R$0"}
+        </button>
+      </form>
+    </section>
+  );
+};
+
+export default Donate;

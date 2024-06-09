@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBitcoin, FaYoutube } from "react-icons/fa6";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaBitcoin, FaFacebook, FaYoutube } from "react-icons/fa6";
+// import { FaGithubSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -37,7 +37,7 @@ const Navbar = () => {
               <FaYoutube />
             </li>
             <li>
-              <FaGithubSquare />
+              <FaFacebook />
             </li>
             <li>
               <BsInstagram />

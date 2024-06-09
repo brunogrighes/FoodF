@@ -5,7 +5,7 @@ import {
   FaSquareTwitter,
   FaSquareInstagram,
   FaYoutube,
-  FaLinkedin,
+  FaFacebook,
 } from "react-icons/fa6";
 
 const Footer = () => {
@@ -61,21 +61,21 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link to={"/"}>
-              {" "}
+            <Link to={"https://www.instagram.com/cozinheiros_do_bem/"}>
+              {""}
               <span>
                 <FaSquareInstagram />
               </span>{" "}
-              <span>Instagram</span>{" "}
+              <span>Instagram</span>{""}
             </Link>
           </li>
           <li>
-            <Link to={"/"}>
-              {" "}
+            <Link to={"https://www.facebook.com/cozinheirosdobem"}>
+              {""}
               <span>
-                <FaLinkedin />
+                <FaFacebook />
               </span>{" "}
-              <span>Linkedin</span>{" "}
+              <span>Facebook</span>{" "}
             </Link>
           </li>
         </ul>
