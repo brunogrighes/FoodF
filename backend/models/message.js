@@ -25,4 +25,4 @@ const messageScheam = new mongoose.Schema({
   },
 });
 
-export const Volunteer = mongoose.model("Volunteer", messageScheam);
+export const Message = mongoose.model("Message", messageScheam);
